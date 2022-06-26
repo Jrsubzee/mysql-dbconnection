@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-size: 1.0em;
+    font-family: Comic Sans MS;
+}
+.container {
+    overflow-x: auto;
+    margin: 4px;
+    width: 100%;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th {
+    background: #4caf50;
+    color: #fff;
+    line-height: 0.8em;
+}
+td, th {
+    padding: 6px;
+    border-bottom: 1px solid #e1e8ed;
+    text-align: left;
+}
+tr:nth-child(odd) {
+    background: #e1e8ed;
+}
+.section {
+    margin: 4px;
+}
+.section h3 {
+    text-align: center;
+}
+input {
+    width: 100%;
+    padding: 8px;
+    border: 2px solid #e1e8ed;
+    border-radius: 4px;
+}
+input[type="submit"] {
+    background: #4caf50;
+    color: #fff;
+    border:0;
+}
